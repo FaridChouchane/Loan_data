@@ -2,6 +2,16 @@ Loan Data </b>
 
 This dataset consists of more than 9,500 loans with information on the loan structure, the borrower, and whether the loan was pain back in full. This data was extracted from LendingClub.com, which is a company that connects borrowers with investors.
 
+```python
+
+import pandas as pd
+loan_data = pd.read_csv("loan_data.csv)
+print(loan_data.shape)
+loan_data.head(100)
+
+```
+
+
 Data dictionary </b>
 
 | N° | Variable | Explication |
